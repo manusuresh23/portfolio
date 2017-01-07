@@ -8,11 +8,9 @@
  * http://ReactiveRaven.github.com/jqBootstrapValidation/
  */
 
-(function( $ ){
+(function ($) {
 
-	var createdElements = [];
-
-	var defaults = {
+	var createdElements = [], defaults = {
 		options: {
 			prependExistingHelpBlock: false,
 			sniffHtml: true, // sniff for 'required', 'maxlength', etc
