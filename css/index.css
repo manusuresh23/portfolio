@@ -1,5 +1,5 @@
 body {
-    font-family:  Verdana, Geneva, sans-serif;
+    font-family:  "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
     overflow-x: hidden;
     background-color: black;
 }
@@ -38,6 +38,12 @@ hr.star-primary{
     height: 1px;
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgb(255, 255, 255), rgba(0, 0, 0, 0));
     max-width: 250px;
+}
+hr.star-unique{
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgb(255, 255, 255), rgba(0, 0, 0, 0));
+    max-width: 350px;
 }
 hr.style-four {
     height: 12px;
@@ -111,9 +117,9 @@ header img {
 }
 header .intro-text .name {
     display: block;
-    /*    font-family:Verdana, Geneva, sans-serif;*/
-    font-family: Quicksand-Bold;
-    /*    text-transform: capitalize;*/
+        font-family:Verdana, Geneva, sans-serif;
+/*    font-family: Quicksand-Bold;*/
+        text-transform: uppercase;
     font-weight: 200;
     font-size: 3em;
 }
@@ -545,7 +551,7 @@ fieldset[disabled] .btn-success.active {
     height: 350px;
     color: azure;
     margin-top: 40px;
-    padding: 150px
+    padding: 150px;
         text-align: center;
     /*    z-index: 10px;*/
     border-style: outset;
