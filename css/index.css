@@ -549,12 +549,27 @@ fieldset[disabled] .btn-success.active {
     text-align: right;
 }
 
+job-title{
+    display: block;
+    font-size: 1.2rem;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-weight: bold;    
+}
+
+job-desc{
+    display: block;
+    font-size: 1.2rem;
+    line-height: 1.5em;
+}
+
 /* TIMELINE
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 .timeline ul {
-    background: black;
-    padding: 20px 0;
+    background: transparent;
+    color: white;
+    padding: 50px 0;
 }
 
 .timeline ul li {
@@ -581,8 +596,8 @@ fieldset[disabled] .btn-success.active {
 .timeline ul li div {
     position: relative;
     bottom: 0;
-    width: 300px;
-    padding: 5px;
+    width: 400px;
+    padding: 15px;
     background: transparent;
 }
 
@@ -596,7 +611,7 @@ fieldset[disabled] .btn-success.active {
 }
 
 .timeline ul li:nth-child(odd) div {
-    left: 30px;
+    left: 45px;
 }
 
 .timeline ul li:nth-child(odd) div::before {
@@ -606,8 +621,7 @@ fieldset[disabled] .btn-success.active {
 }
 
 .timeline ul li:nth-child(even) div {
-    text-align: right;
-    left: -330px;
+    left: -439px;
 }
 
 .timeline ul li:nth-child(even) div::before {
@@ -623,23 +637,7 @@ time {
     margin-bottom: 8px;
 }
 
-.timeline-text{
-    color: white;
-}
 
-job-title{
-    display: block;
-    font-size: 1.2rem;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    font-weight: bold;    
-}
-
-job-desc{
-    display: block;
-    font-size: 1.2rem;
-    line-height: 1.5em;
-}
 /* EFFECTS
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
@@ -669,4 +667,35 @@ job-desc{
     transform: none;
     visibility: visible;
     opacity: 1;
+}
+
+
+/* GENERAL MEDIA QUERIES
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+@media screen and (max-width: 900px) {
+    .timeline ul li div {
+        width: 250px;
+    }
+    .timeline ul li:nth-child(even) div {
+        left: -289px;
+        /*250+45-6*/
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .timeline ul li {
+        margin-left: 20px;
+    }
+    .timeline ul li div {
+        width: calc(100vw - 91px);
+    }
+    .timeline ul li:nth-child(even) div {
+        left: 45px;
+    }
+    .timeline ul li:nth-child(even) div::before {
+        left: -15px;
+        border-width: 8px 16px 8px 0;
+        border-color: transparent transparent transparent transparent;
+    }
 }
