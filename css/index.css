@@ -9,6 +9,10 @@ p {
 p.small {
     font-size: 16px;
 }
+p.p-padding{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
 a,
 a:hover,
 a:focus,
@@ -30,19 +34,20 @@ h6 {
 hr.style-two {
     border: 0;
     height: 1px;
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgb(255, 255, 255), rgba(0, 0, 0, 0));
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgb(0,0,0), rgba(0, 0, 0, 0));
 }
 
 hr.star-primary{
     border: 0;
     height: 1px;
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgb(255, 255, 255), rgba(0, 0, 0, 0));
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgb(0,0,0), rgba(0, 0, 0, 0));
     max-width: 250px;
+    
 }
 hr.star-unique{
     border: 0;
     height: 1px;
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgb(255, 255, 255), rgba(0, 0, 0, 0));
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgb(0,0,0), rgba(0, 0, 0, 0));
     max-width: 350px;
 }
 hr.style-four {
@@ -119,15 +124,17 @@ header img {
 }
 header .intro-text .name {
     display: block;
-    font-family:Verdana, Geneva, sans-serif;
-    /*    font-family: Quicksand-Bold;*/
+    font-family:"Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: white;
     text-transform: uppercase;
     font-weight: 200;
     font-size: 3em;
+    padding-bottom: 40px;
 }
 header .intro-text .skills {
     font-size: 1.25em;
     font-weight: 300;
+    color: white;
 }
 @media (min-width: 768px) {
     header .container {
@@ -142,7 +149,7 @@ header .intro-text .skills {
     }
 }
 .navbar-custom {
-    background: black;
+    background: white;
     font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     font-weight: 700;
@@ -152,19 +159,19 @@ header .intro-text .skills {
     outline: none;
 }
 .navbar-custom .navbar-brand {
-    color: white;
+    color: black;
 }
 .navbar-custom .navbar-brand:hover,
 .navbar-custom .navbar-brand:focus,
 .navbar-custom .navbar-brand:active,
 .navbar-custom .navbar-brand.active {
-    color: white;
+    color: black;
 }
 .navbar-custom .navbar-nav {
     letter-spacing: 1px;
 }
 .navbar-custom .navbar-nav li a {
-    color: white;
+    color: black;
 }
 .navbar-custom .navbar-nav li a:hover {
     color: #FF6600;
@@ -173,7 +180,7 @@ header .intro-text .skills {
 }
 .navbar-custom .navbar-nav li a:focus,
 .navbar-custom .navbar-nav li a:active {
-    color: white;
+    color: black;
 }
 .navbar-custom .navbar-nav li.active a {
     color: white;
@@ -186,10 +193,10 @@ header .intro-text .skills {
     background: #FF6600;
 }
 .navbar-custom .navbar-toggle {
-    color: white;
+    color: black;
     text-transform: uppercase;
     font-size: 10px;
-    border-color: white;
+    border-color: transparent;
 }
 .navbar-custom .navbar-toggle:hover,
 .navbar-custom .navbar-toggle:focus {
@@ -223,6 +230,7 @@ section {
 section h2 {
     margin: 0;
     font-size: 3em;
+    padding-bottom: 40px;
 }
 section.success {
     background: #000000;
@@ -350,7 +358,7 @@ footer .footer-col {
 }
 footer .footer-below {
     padding: 25px 0;
-    background-color: #233140;
+    background-color: white;
 }
 .btn-outline {
     color: white;
@@ -506,7 +514,7 @@ fieldset[disabled] .btn-success.active {
     margin: 30px 0;
 }
 .portfolio-modal .close-modal {
-    position: absolute;
+    position: fixed;
     width: 75px;
     height: 75px;
     background-color: transparent;
@@ -702,4 +710,9 @@ time {
         border-width: 8px 16px 8px 0;
         border-color: transparent transparent transparent transparent;
     }
+}
+
+.col-lg-12{
+    position: relative;
+    color: black
 }
