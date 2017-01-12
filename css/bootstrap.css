@@ -2242,6 +2242,8 @@ pre code {
         /*        margin-left: 16.66666667%;*/
         text-align: center;
         margin-right: auto;
+        padding-left: 30px;
+        padding-right: 30px;
     }
     .col-lg-offset-2-1 {
         text-align: center;
