@@ -345,7 +345,7 @@ section.success {
     opacity: 1;
 }
 .floating-label-form-group-with-focus label {
-    color: #18BC9C;
+    color: #FF6600;
 }
 form .row:first-child .floating-label-form-group {
     border-top: 1px solid #eeeeee;
@@ -427,18 +427,23 @@ fieldset[disabled] .btn-primary.active {
 }
 .btn-success {
     color: white;
-    background-color: #ff6600;
+    background-color: #FF6600;
     border-color: #ff6600;
-    font-weight: 700;
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    text-transform: uppercase;
+    padding: 10px 20px 10px 20px;
 }
 .btn-success:hover,
 .btn-success:focus,
 .btn-success:active,
 .btn-success.active,
 .open .dropdown-toggle.btn-success {
-    color: white;
-    background-color: #FF8800;
-    border-color: #ff8800;
+    color: #FF6600;
+    background-color: #FFFFFF;
+    border-color: #FF6600;
+
 }
 .btn-success:active,
 .btn-success.active,
