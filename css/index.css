@@ -1,7 +1,7 @@
 body {
     font-family:  "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
     overflow-x: hidden;
-    background-color: black;
+    background-color: #18121E;
 }
 p {
     font-size: 20px;
@@ -160,7 +160,7 @@ header .intro-text .skills {
     outline: none;
 }
 .navbar-custom .navbar-brand {
-    color: black;
+    color: #232323;
 }
 .navbar-custom .navbar-brand:hover,
 .navbar-custom .navbar-brand:focus,
@@ -724,5 +724,5 @@ time {
 
 .col-lg-12{
     position: relative;
-    color: black
+    color: #233237
 }
