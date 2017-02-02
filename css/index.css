@@ -111,7 +111,7 @@ hr.star-primary:after {
 }
 header {
     text-align: center;
-    background: black;
+    background: white;
     color: white;
 }
 header .container {
@@ -125,7 +125,7 @@ header img {
 header .intro-text .name {
     display: block;
     font-family:"Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    color: white;
+    color: black;
     text-transform: uppercase;
     font-weight: 200;
     font-size: 3em;
@@ -135,7 +135,7 @@ header .intro-text .skills {
     font-size: 1.25em;
     font-weight: 300;
     text-align: center;
-    color: white;
+    color: black;
 }
 @media (min-width: 768px) {
     header .container {
@@ -212,6 +212,9 @@ header .intro-text .skills {
         -moz-transition: padding 0.3s;
         transition: padding 0.3s;
     }
+    .navbar-custom a{
+        color: white;
+    }
     .navbar-custom .navbar-brand {
         font-size: 2em;
         -webkit-transition: all 0.3s;
@@ -220,15 +223,23 @@ header .intro-text .skills {
     }
     .navbar-custom.affix {
         padding: 10px 0;
+        background-color: hsla(360, 0%, 0%, 0.80) ;
+    }
+    .navbar-custom.affix .navbar-right a{
+        
+        color: white;
     }
     .navbar-custom.affix .navbar-brand {
         font-size: 1.5em;
+        color: white
     }
 }
 .avatar{
     display: block;
     height: 250px;
     margin: 20px auto;
+    border-color: black;
+    
 }
 
 section {
@@ -240,8 +251,8 @@ section h2 {
     padding-bottom: 40px;
 }
 section.success {
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
 }
 @media (max-width: 767px) {
     section {
@@ -250,6 +261,9 @@ section.success {
     section.first {
         padding-top: 75px;
     }
+}
+#portfolio {
+    background-color: black;
 }
 #portfolio .portfolio-item {
     margin: 0 0 15px;

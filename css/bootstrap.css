@@ -1602,6 +1602,11 @@ pre code {
         width: 1170px;
     }
 }
+@media (min-width: 1920px) {
+    .container {
+        width: 1890px;
+    }
+}
 .container-fluid {
     padding-right: 15px;
     padding-left: 15px;
@@ -3644,7 +3649,8 @@ tbody.collapse.in {
     .navbar-right .dropdown-menu {
         right: 0;
         left: auto;
-    }
+        
+    }colo
     .navbar-right .dropdown-menu-left {
         right: auto;
         left: 0;
@@ -4495,6 +4501,10 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     .navbar-right {
         float: right !important;
         margin-right: -15px;
+        
+    }
+    .navbar-right a{
+        color: white;
     }
     .navbar-right ~ .navbar-right {
         margin-right: 0;
