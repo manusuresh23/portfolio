@@ -738,5 +738,8 @@ time {
 
 .col-lg-12{
     position: relative;
-    color: #233237
+    color: black;
 }
+#experience{
+    
+background-color: black;
