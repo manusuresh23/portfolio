@@ -1,3 +1,4 @@
+
 body {
     font-family:  "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
     overflow-x: hidden;
@@ -29,7 +30,7 @@ h5,
 h6 {
     font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
-    font-weight: 700;
+    font-weight: 500;
 }
 hr.style-two {
     border: 0;
@@ -153,14 +154,14 @@ header .intro-text .skills {
     background: white;
     font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
-    font-weight: 700;
+/*    font-weight: 00;*/
     border: none;
 }
 .navbar-custom a:focus {
     outline: none;
 }
 .navbar-custom .navbar-brand {
-    color: #232323;
+    color: black;
 }
 .navbar-custom .navbar-brand:hover,
 .navbar-custom .navbar-brand:focus,
@@ -226,7 +227,7 @@ header .intro-text .skills {
         background-color: hsla(360, 0%, 0%, 0.80) ;
     }
     .navbar-custom.affix .navbar-right a{
-        
+
         color: white;
     }
     .navbar-custom.affix .navbar-brand {
@@ -239,7 +240,7 @@ header .intro-text .skills {
     height: 250px;
     margin: 20px auto;
     border-color: black;
-    
+
 }
 
 section {
@@ -247,9 +248,15 @@ section {
 }
 section h2 {
     margin: 0;
-    font-size: 3em;
-    padding-bottom: 40px;
+    font-size: 45px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .15em;
+    text-shadow: -6px 4px 7px #808080;
 }
+
 section.success {
     background-color: white;
     color: black;
@@ -741,5 +748,17 @@ time {
     color: black;
 }
 #experience{
+    background-color: black;
+}
+h1.name{
+    font-size: 92px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .15em;
+    text-shadow: -6px 4px 7px #808080;
+
+}
+
     
-background-color: black;
