@@ -3647,12 +3647,12 @@ tbody.collapse.in {
 }
 @media (min-width: 768px) {
     .navbar-right .dropdown-menu {
-        right: 0;
+/*        right: 0;*/
         left: auto;
         
     }colo
     .navbar-right .dropdown-menu-left {
-        right: auto;
+/*        right: auto;*/
         left: 0;
     }
 }

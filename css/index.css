@@ -5,7 +5,7 @@ body {
     background-color: #18121E;
 }
 p {
-    font-size: 20px;
+    font-size: 15px;
 }
 p.small {
     font-size: 16px;
@@ -260,10 +260,11 @@ section h2 {
 section.success {
     background-color: white;
     color: black;
+    
 }
 @media (max-width: 767px) {
     section {
-        padding: 75px 0;
+        padding: 75px 15px;
     }
     section.first {
         padding-top: 75px;
