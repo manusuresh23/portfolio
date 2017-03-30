@@ -1,0 +1,1014 @@
+<!-- milestone 3 -persona -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script type="text/javascript">
+    /* When the user clicks on the button, 
+    toggle between hiding and showing the dropdown content */
+    function myFunction() {
+        document.getElementById("myDropdown").classList.toggle("show");
+    }
+
+// Close the dropdown menu if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+    }
+}
+}
+}
+</script>
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+<meta name="author" content="">
+
+<title>Rochester Student Housing</title>
+
+<!-- Bootstrap Core CSS -->
+<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Custom Fonts -->
+<link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+<link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+<!-- Theme CSS -->
+<link href="css/agency.min.css" rel="stylesheet">
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+    </head>
+
+    <body id="page-top" class="index">
+
+        <!-- Navigation -->
+        <nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed-top">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header page-scroll">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+                    </button>
+                    <a class="navbar-brand page-scroll" href="#page-top">Rochester Housing</a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="hidden">
+                            <a href="#page-top"></a>
+                        </li>
+                        <li>
+                            <a class="page-scroll" href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a class="page-scroll" href="#primary">LoFi</a>
+                        </li>
+                        <li> 
+                            <a class="page-scroll" href="#secondary">HiFi</a>
+                        </li>
+                       
+                   
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container-fluid -->
+        </nav>
+
+        <!-- Header -->
+        <header>
+            <div class="container">
+                <div class="intro-text">
+                    <!--<div class="intro-lead-in">Welcome To Our Studio!</div>-->
+                    <div class="intro-heading">Prototypes</div>
+                    <a href="#about" class="page-scroll btn btn-xl">Tell Me More</a>
+                </div>
+            </div>
+        </header>
+
+        <!-- About -->
+        <section id="about" class="bg-light-gray">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h2 class="section-heading">About</h2>
+                        <h3 class="section-subheading text-muted">General Focus</h3>
+                        <p> Being an out-state-student to a new school can be very stressful when you don’t know the Rochester area very well. Out-of-state students and especially international students might have a hard time finding housing, transportation, and getting used to the area. Organizations exist at RIT to assist these students with these problems but they might have a tough time reaching all of the students that may need their help. </p>
+                        <p> We want to make it easier for existing RIT students who wish to help new students to do so. Our project will focus on building a bridge between these two groups of students so that the new students can be assisted and have their questions answered even before classes start. Our main demographic focus will be on international and transfer students who are living off campus but the project could also assist freshmen living in dorms as well. </p>
+                        <p> The main focus of the website itself will be to help students find housing in the area and issues that relate to that such as transportation from a certain area, stores in a certain area etc. Through our interviews we want to see if there are more important issues that students would like help finding out about. </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="bg-light-gray1">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h2 class="section-heading">Target Audience</h2>
+                        <h3 class="section-subheading text-muted">Our customer, stakeholders, and users</h3>
+                    </div>
+                </div>
+                <div class="row text-center">
+                    <div class="col-md-4">
+                        <span class="fa-stack fa-4x">
+                            <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                            <i class="fa fa-shopping-cart fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <h4 class="service-heading">Customers</h4>
+                        <p class="text-muted">We do not have a customer at this time but would be interested in talking to an RIT organization that might find this product useful. </p>
+                    </div>
+                    <div class="col-md-4">
+                        <span class="fa-stack fa-4x">
+                            <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                            <i class="fa fa-dollar fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <h4 class="service-heading">Stakeholders</h4>
+                        <p class="text-muted">RIT Students especially students having trouble finding housing, The Team, Housing Administration Companies/Landlords, RIT organizations that help international and out-of-state students </p>
+                    </div>
+                    <div class="col-md-4">
+                        <span class="fa-stack fa-4x">
+                            <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                            <i class="fa fa-users fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <h4 class="service-heading">Users</h4>
+                        <p class="text-muted">RIT Students, Housing Administration, Someone looking for Housing </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- LoFi Prototype Section -->
+        <section id="primary" class="bg-light-gray">
+            <div class="container">
+
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h2 class="section-heading">LoFi Prototype</h2>
+                        <h3 class="section-subheading text-muted">Here are our lofi prototype pictures</h3>
+
+                    </div>
+                </div>
+                <div class="row img-label-border">
+                    <div class="col-md-6 col-sm-8 portfolio-item">
+                        <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                            <div class="portfolio-hover-content">
+                                <div class="portfolio-hover-content">
+                                </div>
+                            </div>
+                            <br />
+                            <img src="img/portfolio/lofi1.jpg" class="img-responsive" alt="">
+                        </a>
+                        <div class="portfolio-caption">
+                            <h4>HOMEPAGE - About - Screen 1.1</h4>
+                            <p class="text-muted">This screen contains the name of the website, punchline. The page is embedded with the image and information about the website. Other organizations including ISS that are helping with student housing are introduced. To know more about the organizations, the user will be led to the “Organization Information”- Screen 1.3. Moreover, the GIF of down arrow signifies to scroll down to navigate to the other section of the page. It also has three tabs on the top: About, Map and Student Employees which are the sections of the homepage. The ISS hyperlink on the top will direct user to ISS's website. </p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-sm-8 portfolio-item">
+                        <a href="#portfolioModal7" class="portfolio-link" data-toggle="modal">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content">
+                                </div>
+                            </div>
+                            <br />
+                           
+                            <img src="img/portfolio/lofi3.jpg" class="img-responsive" alt="">
+                        </a>
+                        <div class="portfolio-caption">
+                             <h4>HOMEPAGE - Map - Screen 1.2 </h4>
+                            <p class="text-muted">The other section of the homepage contains a map, that shows the housings and its proximity to RIT. User can hover over the icons of the houses and see the information when it expands. To view more information user would click on it. The other way to look for houses is clicking the ‘Filter’ tab on top of the map, which leads to “Housing Filter”- Screen 2.1. And upon clicking the housing icons, user will be navigated to “Housing Information”- Screen 2.2. </p>
+                            <br /> <br /> <br /> <br /> <br /> <br />
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-sm-8 portfolio-item">
+                        <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content">
+                                </div>
+                            </div>
+                            <img src="img/portfolio/lofi1-2.jpg" class="img-responsive" alt="">
+                        </a>
+                        <div class="portfolio-caption">
+                            <h4>HOMEPAGE- Student Employees - Screen 1.3</h4>
+                            <p class="text-muted">Here is the information of the student employees hired by ISS to help out the incoming International Students. The search option gives user opportunity to find out the student employees they know. </p>
+                            <br />
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-sm-8 portfolio-item">
+                        <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content">
+                                </div>
+                            </div>
+                            <img src="img/portfolio/lofi1-1.jpg" class="img-responsive" alt="">
+                        </a>
+                        <div class="portfolio-caption">
+                            <h4>HOUSING FILTER - Screen 2.1</h4>
+                            <p class="text-muted">With Likert scale and slide, filtering is easy and interactive. After entering the query user will go back to the homepage- Screen 1.2 and will see the housing options according to the filtering query entered by user. </p>
+                            <br />
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-sm-8 portfolio-item">
+                        <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content">
+                                </div>
+                            </div>
+                            <img src="img/portfolio/lofi1-3.jpg" class="img-responsive" alt="">
+                        </a>
+                        <div class="portfolio-caption">
+                            <h4>HOUSING INFORMATION - Screen 2.2 </h4>
+                            <p class="text-muted">User will be navigated here upon clicking a house in the map of “Homepage”- Screen 1.2. The information of that particular housing has been rendered. The ‘image’ section will contain different views of the house. Moreover, the transportation facilities from the closest bus stops to the house, recreational and shopping places are highlighted. For a detailed view users will have to click ‘More’ which will direct them to expanded version to “Transportation”- Screen 2.2.1, “Recreation”- Screen 2.2.2, and “Shopping”- Screen 2.2.3. </p>
+                            <br />
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-sm-8 portfolio-item">
+                        <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content">
+                                </div>
+                            </div>
+                            <img src="img/portfolio/lofi1-4.jpg" class="img-responsive" alt="">
+                        </a>
+                        <div class="portfolio-caption">
+                            <h4>TRANSPORTATION- Screen 2.2.1</h4>
+                            <p class="text-muted">This screen is a more detailed view of one of the vertical tabs on housing info page, transportation. A bus schedule/ stops within the proximity of the selected housing option will be displayed. </p>
+                            <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-sm-8 portfolio-item">
+                        <a href="#portfolioModal8" class="portfolio-link" data-toggle="modal">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content">
+                                </div>
+                            </div>
+                            <img src="img/portfolio/lofi4.jpg" class="img-responsive" alt="">
+                        </a>
+                        <div class="portfolio-caption">
+                            <h4>RECREATION- Screen 2.2.2</h4>
+                            <p class="text-muted">This screen is a more detailed view of one of the other vertical tabs on housing info page, recreation. Recreation options closer to the selected housing will be displayed organized by miles from the selected housing..</p>
+                            <br />
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-sm-8 portfolio-item">
+                        <a href="#portfolioModal9" class="portfolio-link" data-toggle="modal">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content">
+                                </div>
+                            </div>
+                            <img src="img/portfolio/lofi4-1.jpg" class="img-responsive" alt="">
+                        </a>
+                        <div class="portfolio-caption">
+                            <h4>SHOPPING- Screen 2.2.3</h4>
+                            <p class="text-muted">This screen is a more detailed view of one of the other vertical tabs on housing info page, shopping. Shopping options closer to the selected housing will be displayed organized by miles from the selected housing. </p>
+                            <br />
+                            <br />
+                            <br />
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-sm-8 portfolio-item">
+                        <a href="#portfolioModal10" class="portfolio-link" data-toggle="modal">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content">
+                                </div>
+                            </div>
+                            <img src="img/portfolio/lofi8.jpg" class="img-responsive" alt="">
+                        </a>
+                        <div class="portfolio-caption">
+                            <h4>CHAT 1</h4>
+                            <p class="text-muted">This page explains the login flow whether the user is able to successfully login or not. The login is only to use the chat functionality in order to avoid any spam messages. Login for existing students who are part of some of the organizations involved with this website is also explained here.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-sm-8 portfolio-item">
+                        <a href="#portfolioModal11" class="portfolio-link" data-toggle="modal">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content">
+                                </div>
+                            </div>
+                            <img src="img/portfolio/lofi8-1.jpg" class="img-responsive" alt="">
+                        </a>
+                        <div class="portfolio-caption">
+                            <h4>CHAT 2</h4>
+                            <p class="text-muted">This login screen explains login instructions and also link to RIT page with info on how to get RIT username and password. </p>
+                            <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> 
+                            <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> 
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-sm-8 portfolio-item">
+                        <a href="#portfolioModal12" class="portfolio-link" data-toggle="modal">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content">
+                                </div>
+                            </div>
+                            <img src="img/portfolio/lofi7.jpg" class="img-responsive" alt="">
+                        </a>
+                        <div class="portfolio-caption">
+                            <h4>FAQ 1</h4>
+                            <p class="text-muted">The list of basic questions are listed here so user can decide if they want to talk to student employees for any more information! </p>
+                            <br />
+                            <br />
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-sm-8 portfolio-item">
+                        <a href="#portfolioModal13" class="portfolio-link" data-toggle="modal">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content">
+                                </div>
+                            </div>
+                            <img src="img/portfolio/lofi7-1.jpg" class="img-responsive" alt="">
+                        </a>
+                        <div class="portfolio-caption">
+                            <h4>FAQ 2</h4>
+                            <p class="text-muted">Every question is a hyperlink. User can click on one of them and the answer will be displayed. </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <br/>
+            
+        </section>
+
+        <!-- HiFi Prototype Section -->
+        <section id="secondary" class="bg-light-gray">
+            <div class="container">
+
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h2 class="section-heading">HiFi Prototype</h2>
+                        <h3 class="section-subheading text-muted">Here is a link to our prototype on Invision: <a href="https://invis.io/XK9EPMHM5#/206292226_Index3"</a>https://invis.io/XK9EPMHM5#/206292226_Index3</h3>
+                        <h3 class="section-subheading text-muted">Here are our hifi prototype pictures</h3>
+
+                    </div>
+                </div>
+                <div class="row img-label-border">
+                    <div class="col-md-6 col-sm-8 portfolio-item">
+                        <a href="#portfolioModal14" class="portfolio-link" data-toggle="modal">
+                            <div class="portfolio-hover-content">
+                                <div class="portfolio-hover-content">
+                                </div>
+                            </div>
+                            <br />
+                            <img src="img/portfolio/HomePage.png" class="img-responsive" alt="">
+                        </a>
+                        <div class="portfolio-caption">
+                            <h4>HOMEPAGE</h4>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-sm-8 portfolio-item">
+                        <a href="#portfolioModal15" class="portfolio-link" data-toggle="modal">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content">
+                                </div>
+                            </div>
+                            <br />
+                            <img src="img/portfolio/House.png" class="img-responsive" alt="">
+                        </a>
+                        <div class="portfolio-caption">
+                             <h4>HOUSE </h4>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-sm-8 portfolio-item">
+                        <a href="#portfolioModal16" class="portfolio-link" data-toggle="modal">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content">
+                                </div>
+                            </div>
+                            <br />
+                            <img src="img/portfolio/Students.png" class="img-responsive" alt="">
+                        </a>
+                        <div class="portfolio-caption">
+                            <h4>STUDENTS</h4>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-sm-8 portfolio-item">
+                        <a href="#portfolioModal17" class="portfolio-link" data-toggle="modal">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content">
+                                </div>
+                            </div>
+                            <br />
+                            <img src="img/portfolio/chatting.png" class="img-responsive" alt="">
+                        </a>
+                        <div class="portfolio-caption">
+                            <h4>CHATTING</h4>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-sm-8 portfolio-item">
+                        <a href="#portfolioModal18" class="portfolio-link" data-toggle="modal">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content">
+                                </div>
+                            </div>
+                            <br />
+                            <img src="img/portfolio/faqs1.png" class="img-responsive" alt="">
+                        </a>
+                        <div class="portfolio-caption">
+                            <h4>FAQs 1 </h4>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-sm-8 portfolio-item">
+                        <a href="#portfolioModal19" class="portfolio-link" data-toggle="modal">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content">
+                                </div>
+                            </div>
+                            <br />
+                            <img src="img/portfolio/faqs2.png" class="img-responsive" alt="">
+                        </a>
+                        <div class="portfolio-caption">
+                            <h4>FAQs 2</h4>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            
+        </section>
+        
+
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <span class="copyright">Copyright &copy; Rochester Housing 2016</span>
+                    </div>
+                    <div class="col-md-4">
+                        <ul class="list-inline social-buttons">
+                            <li><a href="#"><i class="fa fa-twitter"></i></a>
+                            </li>
+                            <li><a href="#"><i class="fa fa-facebook"></i></a>
+                            </li>
+                            <li><a href="#"><i class="fa fa-linkedin"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <ul class="list-inline quicklinks">
+                            <li><a href="#">Privacy Policy</a>
+                            </li>
+                            <li><a href="#">Terms of Use</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Portfolio Modals -->
+        <!-- Use the modals below to showcase details about your portfolio projects! -->
+
+        <!-- Portfolio Modal 1 -->
+        <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal">
+                        <div class="lr">
+                            <div class="rl">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-8 col-lg-offset-2">
+                                <div class="modal-body">
+                                    <!-- Project Details Go Here -->
+                                    <h2>HOMEPAGE - About - Screen 1.1</h2>
+                                    <p class="item-intro text-muted"></p>
+                                    <img class="img-responsive img-centered" src="img/portfolio/lofi1.jpg" alt="">
+                                    <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Portfolio Modal 2 -->
+        <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal">
+                        <div class="lr">
+                            <div class="rl">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-8 col-lg-offset-2">
+                                <div class="modal-body">
+                                    <!-- Project Details Go Here -->
+                                    <h2>HOUSING FILTER- Screen 2.1</h2>
+                                    <p class="item-intro text-muted"></p>
+                                    <img class="img-responsive img-centered" src="img/portfolio/lofi1-1.jpg" alt="">       
+                                    <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Portfolio Modal 3 -->
+        <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal">
+                        <div class="lr">
+                            <div class="rl">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-8 col-lg-offset-2">
+                                <div class="modal-body">
+                                    <h2>HOMEPAGE- Student Employees - Screen 1.3</h2>
+                                    <p class="item-intro text-muted"></p>
+                                    <img class="img-responsive img-centered" src="img/portfolio/lofi1-2.jpg" alt="">
+
+                                    <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Portfolio Modal 4 -->
+        <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal">
+                        <div class="lr">
+                            <div class="rl">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-8 col-lg-offset-2">
+                                <div class="modal-body">
+                                    <h2>HOUSING INFORMATION- Screen 2.2 </h2>
+                                    <p class="item-intro text-muted"></p>
+                                    <img class="img-responsive img-centered" src="img/portfolio/lofi1-3.jpg" alt="">
+
+                                    <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Portfolio Modal 5 -->
+        <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal">
+                        <div class="lr">
+                            <div class="rl">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-8 col-lg-offset-2">
+                                <div class="modal-body">
+                                    <!-- Project Details Go Here -->
+                                    <h2>TRANSPORTATION- Screen 2.2.1</h2>
+                                    <p class="item-intro text-muted"></p>
+                                    <img class="img-responsive img-centered" src="img/portfolio/lofi1-4.jpg" alt="">
+
+                                    <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Portfolio Modal 7 -->
+        <div class="portfolio-modal modal fade" id="portfolioModal7" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal">
+                        <div class="lr">
+                            <div class="rl">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-8 col-lg-offset-2">
+                                <div class="modal-body">
+                                    <!-- Project Details Go Here -->
+                                    <h2>HOMEPAGE - Map - Screen 1.2</h2>
+                                    <p class="item-intro text-muted"></p>
+                                    <img class="img-responsive img-centered" src="img/portfolio/lofi3.jpg" alt="">
+
+                                    <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Portfolio Modal 8 -->
+        <div class="portfolio-modal modal fade" id="portfolioModal8" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal">
+                        <div class="lr">
+                            <div class="rl">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-8 col-lg-offset-2">
+                                <div class="modal-body">
+                                    <!-- Project Details Go Here -->
+                                    <h2>RECREATION- Screen 2.2.2</h2>
+                                    <p class="item-intro text-muted"></p>
+                                    <img class="img-responsive img-centered" src="img/portfolio/lofi4.jpg" alt="">
+
+                                    <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Portfolio Modal 9 -->
+        <div class="portfolio-modal modal fade" id="portfolioModal9" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal">
+                        <div class="lr">
+                            <div class="rl">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-8 col-lg-offset-2">
+                                <div class="modal-body">
+                                    <!-- Project Details Go Here -->
+                                    <h2>SHOPPING- Screen 2.2.3</h2>
+                                    <p class="item-intro text-muted"></p>
+                                    <img class="img-responsive img-centered" src="img/portfolio/lofi4-1.jpg" alt="">
+
+                                    <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Portfolio Modal 10 -->
+        <div class="portfolio-modal modal fade" id="portfolioModal10" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal">
+                        <div class="lr">
+                            <div class="rl">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-8 col-lg-offset-2">
+                                <div class="modal-body">
+                                    <!-- Project Details Go Here -->
+                                    <h2>CHAT 1</h2>
+                                    <p class="item-intro text-muted"></p>
+                                    <img class="img-responsive img-centered" src="img/portfolio/lofi8.jpg" alt="">
+
+                                    <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Portfolio Modal 11 -->
+        <div class="portfolio-modal modal fade" id="portfolioModal11" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal">
+                        <div class="lr">
+                            <div class="rl">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-8 col-lg-offset-2">
+                                <div class="modal-body">
+                                    <!-- Project Details Go Here -->
+                                    <h2>CHAT 2</h2>
+                                    <p class="item-intro text-muted"></p>
+                                    <img class="img-responsive img-centered" src="img/portfolio/lofi8-1.jpg" alt="">
+
+                                    <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Portfolio Modal 12 -->
+        <div class="portfolio-modal modal fade" id="portfolioModal12" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal">
+                        <div class="lr">
+                            <div class="rl">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-8 col-lg-offset-2">
+                                <div class="modal-body">
+                                    <!-- Project Details Go Here -->
+                                    <h2>FAQ 1</h2>
+                                    <p class="item-intro text-muted"></p>
+                                    <img class="img-responsive img-centered" src="img/portfolio/lofi7.jpg" alt="">
+
+                                    <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Portfolio Modal 13 -->
+        <div class="portfolio-modal modal fade" id="portfolioModal13" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal">
+                        <div class="lr">
+                            <div class="rl">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-8 col-lg-offset-2">
+                                <div class="modal-body">
+                                    <!-- Project Details Go Here -->
+                                    <h2>FAQ 2</h2>
+                                    <p class="item-intro text-muted"></p>
+                                    <img class="img-responsive img-centered" src="img/portfolio/lofi7-1.jpg" alt="">
+
+                                    <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Portfolio Modal 14 -->
+        <div class="portfolio-modal modal fade" id="portfolioModal14" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal">
+                        <div class="lr">
+                            <div class="rl">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-8 col-lg-offset-2">
+                                <div class="modal-body">
+                                    <!-- Project Details Go Here -->
+                                    <h2>HOMEPAGE</h2>
+                                    <p class="item-intro text-muted"></p>
+                                    <img class="img-responsive img-centered" src="img/portfolio/HomePage.png" alt="">
+
+                                    <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Portfolio Modal 15 -->
+        <div class="portfolio-modal modal fade" id="portfolioModal15" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal">
+                        <div class="lr">
+                            <div class="rl">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-8 col-lg-offset-2">
+                                <div class="modal-body">
+                                    <!-- Project Details Go Here -->
+                                    <h2>HOUSE</h2>
+                                    <p class="item-intro text-muted"></p>
+                                    <img class="img-responsive img-centered" src="img/portfolio/House.png" alt="">
+
+                                    <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Portfolio Modal 16 -->
+        <div class="portfolio-modal modal fade" id="portfolioModal16" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal">
+                        <div class="lr">
+                            <div class="rl">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-8 col-lg-offset-2">
+                                <div class="modal-body">
+                                    <!-- Project Details Go Here -->
+                                    <h2>STUDENTS</h2>
+                                    <p class="item-intro text-muted"></p>
+                                    <img class="img-responsive img-centered" src="img/portfolio/Students.png" alt="">
+
+                                    <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Portfolio Modal 17 -->
+        <div class="portfolio-modal modal fade" id="portfolioModal17" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal">
+                        <div class="lr">
+                            <div class="rl">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-8 col-lg-offset-2">
+                                <div class="modal-body">
+                                    <!-- Project Details Go Here -->
+                                    <h2>CHATTING</h2>
+                                    <p class="item-intro text-muted"></p>
+                                    <img class="img-responsive img-centered" src="img/portfolio/chatting.png" alt="">
+
+                                    <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Portfolio Modal 18 -->
+        <div class="portfolio-modal modal fade" id="portfolioModal18" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal">
+                        <div class="lr">
+                            <div class="rl">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-8 col-lg-offset-2">
+                                <div class="modal-body">
+                                    <!-- Project Details Go Here -->
+                                    <h2>FAQs 1</h2>
+                                    <p class="item-intro text-muted"></p>
+                                    <img class="img-responsive img-centered" src="img/portfolio/faqs1.png" alt="">
+
+                                    <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Portfolio Modal 19 -->
+        <div class="portfolio-modal modal fade" id="portfolioModal19" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal">
+                        <div class="lr">
+                            <div class="rl">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-8 col-lg-offset-2">
+                                <div class="modal-body">
+                                    <!-- Project Details Go Here -->
+                                    <h2>FAQs 2</h2>
+                                    <p class="item-intro text-muted"></p>
+                                    <img class="img-responsive img-centered" src="img/portfolio/faqs2.png" alt="">
+
+                                    <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- jQuery -->
+        <script src="vendor/jquery/jquery.min.js"></script>
+
+        <!-- Bootstrap Core JavaScript -->
+        <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+        <!-- Plugin JavaScript -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+
+        <!-- Contact Form JavaScript -->
+        <script src="js/jqBootstrapValidation.js"></script>
+        <script src="js/contact_me.js"></script>
+
+        <!-- Theme JavaScript -->
+        <script src="js/agency.min.js"></script>
+
+    </body>
+    </html>
