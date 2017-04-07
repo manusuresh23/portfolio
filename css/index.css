@@ -546,7 +546,7 @@ fieldset[disabled] .btn-success.active {
     margin: 30px 0;
 }
 .portfolio-modal .close-modal {
-    position: fixed;
+    position: absolute;
     width: 75px;
     height: 75px;
     background-color: transparent;
