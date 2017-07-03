@@ -29,7 +29,6 @@ h4,
 h5,
 h6 {
     font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    text-transform: uppercase;
     font-weight: 500;
 }
 hr.style-two {
@@ -65,10 +64,8 @@ hr.style-six {
 }
 .img-responsive2{
     display: block;
-    max-width: 25%;
     height: auto;
 }
-
 
 /hr.star-light,*/
 /*
@@ -123,18 +120,20 @@ header img {
     display: block;
     margin: 0 auto 20px;
 }
+/*
 header .intro-text .name {
-    display: block;
-    font-family:"Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    color: black;
-    text-transform: uppercase;
-    font-weight: 200;
-    font-size: 3em;
-    padding-bottom: 40px;
+display: block;
+font-family:"Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+color: black;
+text-transform: uppercase;
+font-weight: 150;
+font-size: 3em;
+padding-bottom: 40px;
 }
+*/
 header .intro-text .skills {
-    font-size: 1.25em;
-    font-weight: 300;
+    font-size: 1em;
+    font-weight: 200;
     text-align: center;
     color: black;
 }
@@ -143,16 +142,15 @@ header .intro-text .skills {
         padding-top: 150px;
         padding-bottom: 100px;
     }
-    header .intro-text .name {
-        font-size: 4.75em;
-    }
+    /*    header .intro-text .name {*/
+    /*        font-size: 3.5em;*/
+    /*    }*/
     header .intro-text .skills {
         font-size: 1.75em;
     }
 }
 .navbar-custom {
     background: white;
-    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     /*    font-weight: 00;*/
     border: none;
@@ -227,14 +225,18 @@ header .intro-text .skills {
         background-color: hsla(360, 0%, 0%, 0.80) ;
     }
     .navbar-custom.affix .navbar-right a{
-
         color: white;
     }
     .navbar-custom.affix .navbar-brand {
         font-size: 1.5em;
-        color: white
+        color: white;
     }
 }
+
+.resize{
+    height: 50px;
+}
+
 .avatar{
     display: block;
     height: 250px;
@@ -246,6 +248,7 @@ header .intro-text .skills {
 section {
     padding: 100px 0;
 }
+
 section h2 {
     margin: 0;
     font-size: 45px;
@@ -254,14 +257,14 @@ section h2 {
     text-align: center;
     text-transform: uppercase;
     letter-spacing: .15em;
-    text-shadow: -6px 4px 7px #808080;
+    text-shadow: -2px 2px 2px #a0a0a0;
 }
 
 section.success {
-    background-color: white;
-    color: black;
-
+    background-color: black;
+    color: white;
 }
+
 @media (max-width: 767px) {
     section {
         padding: 75px 15px;
@@ -546,7 +549,7 @@ fieldset[disabled] .btn-success.active {
     margin: 30px 0;
 }
 .portfolio-modal .close-modal {
-    position: fixed;
+    position: absolute;
     width: 75px;
     height: 75px;
     background-color: transparent;
@@ -612,7 +615,7 @@ job-desc{
 
 .timeline ul {
     background: transparent;
-    color: white;
+    /*    color: black;*/
     padding: 50px ;
     margin-left: 0px;
 
@@ -625,7 +628,8 @@ job-desc{
     width: 6px;
     margin: 0 55px;
     padding-top: 50px;
-    background: #fff;
+    background-color: black;
+    /*    color: black;*/
 }
 
 .timeline ul li::after {
@@ -647,6 +651,7 @@ job-desc{
     padding: 15px;
     display: block;
     background: transparent;
+    color: black;
 }
 
 .timeline ul li div::before {
@@ -654,6 +659,7 @@ job-desc{
     position: absolute;
     bottom: 7px;
     width: 0;
+    color:black;
     height: 0;
     border-style: solid;
 }
@@ -685,6 +691,9 @@ time {
     margin-bottom: 8px;
 }
 
+.jobs{
+    color: black;
+}
 
 /* EFFECTS
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -694,7 +703,7 @@ time {
 }
 
 .timeline ul li.in-view::after {
-    background: white;
+    background: black;
 }
 
 .timeline ul li div {
@@ -714,6 +723,7 @@ time {
 .timeline ul li.in-view div {
     transform: none;
     visibility: visible;
+    color: black;
     opacity: 1;
 }
 
@@ -734,6 +744,7 @@ time {
 @media screen and (max-width: 600px) {
     .timeline ul li {
         margin-left: 20px;
+        color: black;
     }
     .timeline ul li div {
         width: calc(100vw - 91px);
@@ -753,23 +764,30 @@ time {
     color: black;
 }
 #experience{
-    background-color: black;
+    background-color: white;
+    color:white;
 }
 
 .tline {
+    /*    display: block;*/
+    color: black;
     float: left;
-    margin-left: 45px;
-    padding-right: 25%;
+    margin-left: 25%;
+    padding-right: 50%;
 }
 
-h1.name{
-    font-size: 92px;
-    padding-top: 60px;
-    padding-bottom: 60px;
-    text-align: center;
-    text-transform: uppercase;
+p.name{
+    font-size: 3em;
     letter-spacing: .15em;
-    text-shadow: -6px 4px 7px #808080;
+    /*
+    color: black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-weight: 200;
+
+    text-shadow: 2px 2px 3px #A0A0A0;
+    */
 
 }
 
@@ -784,5 +802,5 @@ h1.name{
     border-style: solid;
     border-color: whitesmoke;
     border-width: thin;
-    
+
 }
