@@ -6,6 +6,7 @@ body {
 }
 p {
     font-size: 15px;
+/*    font-size: 13.5px;*/
 }
 p.small {
     font-size: 16px;
@@ -64,7 +65,7 @@ hr.style-six {
 }
 .img-responsive2{
     display: block;
-    height: auto;
+    width: 30%;
 }
 
 /hr.star-light,*/
@@ -562,7 +563,7 @@ fieldset[disabled] .btn-success.active {
 }
 .portfolio-modal .close-modal .lr {
     height: 75px;
-    width: 1px;
+    width: 2px;
     margin-left: 35px;
     background-color: #2C3E50;
     transform: rotate(45deg);
@@ -574,7 +575,7 @@ fieldset[disabled] .btn-success.active {
 }
 .portfolio-modal .close-modal .lr .rl {
     height: 75px;
-    width: 1px;
+    width: 2px;
     background-color: #2C3E50;
     transform: rotate(90deg);
     -ms-transform: rotate(90deg);
@@ -583,6 +584,42 @@ fieldset[disabled] .btn-success.active {
     /* Safari and Chrome */
     z-index: 1052;
 }
+/*-----------close modal 2----------------*/
+.portfolio-modal .close-modal2 {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background-color: transparent;
+    bottom: 25px;
+    left: 50%;
+    cursor: pointer;
+}
+.portfolio-modal .close-modal2:hover {
+    opacity: 0.3;
+}
+.portfolio-modal .close-modal2 .lr {
+    height: 60px;
+    width: 2px;
+    background-color: #2C3E50;
+    transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    /* IE 9 */
+    -webkit-transform: rotate(45deg);
+    /* Safari and Chrome */
+    z-index: 1051;
+}
+.portfolio-modal .close-modal2 .lr .rl {
+    height: 60px;
+    width: 2px;
+    background-color: #2C3E50;
+    transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    /* IE 9 */
+    -webkit-transform: rotate(90deg);
+    /* Safari and Chrome */
+    z-index: 1052;
+}
+/*----------------------------------------*/
 .portfolio-modal .modal-backdrop {
     opacity: 0;
     display: none;
