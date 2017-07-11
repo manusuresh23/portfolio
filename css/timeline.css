@@ -1,0 +1,29 @@
+.timeline-item {
+    padding: 3em 2em 2em;
+    position: relative;
+    color: rgba(0, 0, 0, 0.7);
+    border-left: 2px solid rgba(0, 0, 0, 0.5);
+}
+
+.timeline-item::after {
+    width: 20px;
+    height: 20px;
+    display: block;
+    top: 1em;
+    position: absolute;
+    left: -11px;
+    border-radius: 2px;
+    transform: rotate(45deg);
+    content: '';
+    border: 2px solid rgba(0, 0, 0, 0.5);
+    background: black;
+}
+.timeline-item:last-child {
+    -o-border-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 60%, transparent) 1 100%;
+    border-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5) 60%, transparent) 1 100%;
+    border-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 60%, transparent) 1 100%;
+}
+
+section.timeline .container{
+    padding: 5%  
+}

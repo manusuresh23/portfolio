@@ -1,8 +1,8 @@
 
 body {
     font-family:  "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    overflow-x: hidden;
-    background-color: #18121E;
+/*    overflow-x: hidden;*/
+    background-color: #000000;
 }
 p {
     font-size: 15px;
@@ -240,14 +240,14 @@ header .intro-text .skills {
 
 .avatar{
     display: block;
-    height: 250px;
+    height: 200px;
     margin: 20px auto;
     border-color: black;
 
 }
 
 section {
-    padding: 100px 0;
+    padding: 75px 0;
 }
 
 section h2 {
