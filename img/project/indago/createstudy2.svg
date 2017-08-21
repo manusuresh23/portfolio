@@ -1,0 +1,142 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="907 -21 375 667">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-Crerate_Study_2);
+      }
+
+      .cls-11, .cls-2, .cls-5 {
+        fill: #fff;
+      }
+
+      .cls-2, .cls-6 {
+        stroke: #95989a;
+      }
+
+      .cls-3 {
+        font-size: 20px;
+      }
+
+      .cls-3, .cls-7, .cls-8 {
+        font-family: SegoeUI, Segoe UI;
+      }
+
+      .cls-10, .cls-4, .cls-6 {
+        fill: none;
+      }
+
+      .cls-4, .cls-5 {
+        stroke: #000;
+      }
+
+      .cls-7 {
+        font-size: 17px;
+      }
+
+      .cls-8 {
+        font-size: 25px;
+      }
+
+      .cls-9 {
+        stroke: none;
+      }
+
+      .cls-12 {
+        filter: url(#Rectangle_101);
+      }
+    </style>
+    <filter id="Rectangle_101" x="926" y="546" width="341" height="74" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-Crerate_Study_2">
+      <rect x="907" y="-21" width="375" height="667"/>
+    </clipPath>
+  </defs>
+  <g id="Crerate_Study_2" data-name="Crerate Study 2" class="cls-1">
+    <rect class="cls-11" x="907" y="-21" width="375" height="667"/>
+    <g id="Rectangle_105" data-name="Rectangle 105" class="cls-2" transform="translate(907 -21)">
+      <rect class="cls-9" width="375" height="667"/>
+      <rect class="cls-10" x="0.5" y="0.5" width="374" height="666"/>
+    </g>
+    <text id="CREATE_STUDY" data-name="CREATE STUDY" class="cls-3" transform="translate(1029 22)"><tspan x="0" y="0">CREATE STUDY</tspan></text>
+    <g id="Group_57" data-name="Group 57" transform="translate(1176 -238)">
+      <g id="alarm" transform="translate(71 238)">
+        <path id="Path_1" data-name="Path 1" d="M24.295,19.763a9.754,9.754,0,0,1-3.064-7.109V8.73a6.349,6.349,0,0,0-3.722-5.767,8.772,8.772,0,0,0-1.525-.531v-.25a2.182,2.182,0,0,0-4.364,0V2.47a8.64,8.64,0,0,0-1.373.5,6.6,6.6,0,0,0-3.864,5.76v3.927a9.682,9.682,0,0,1-2.926,7.109.436.436,0,0,0,.233.74l4.142.715c.771.133,1.482.242,2.158.332a4.314,4.314,0,0,0,7.782,0c.673-.089,1.38-.2,2.147-.331l4.141-.715a.436.436,0,0,0,.234-.739ZM12.493,2.182a1.309,1.309,0,0,1,2.618,0v.079a8.676,8.676,0,0,0-2.618.021Zm1.389,20.945a3.5,3.5,0,0,1-2.8-1.447,27.026,27.026,0,0,0,2.8.151,26.878,26.878,0,0,0,2.806-.152A3.5,3.5,0,0,1,13.882,23.127Zm5.89-2.77c-.837.144-1.6.262-2.33.354h0c-.319.041-.63.076-.934.106h-.01c-.278.028-.55.05-.819.07l-.153.01c-.233.015-.463.027-.693.036l-.141.006c-.543.018-1.078.018-1.621,0l-.145-.006q-.339-.013-.684-.036l-.163-.011c-.262-.019-.527-.041-.8-.068l-.028,0c-.3-.03-.61-.065-.928-.106h0c-.728-.092-1.5-.21-2.339-.355L4.638,19.78a10.5,10.5,0,0,0,2.618-7.126V8.73a5.713,5.713,0,0,1,3.356-4.971,7.8,7.8,0,0,1,1.526-.516h.014a7.933,7.933,0,0,1,3.308-.03c.006,0,.011,0,.017,0a7.892,7.892,0,0,1,1.669.545,5.539,5.539,0,0,1,3.212,4.971v3.927a10.618,10.618,0,0,0,2.755,7.126Z" transform="translate(-3.329)"/>
+        <path id="Path_2" data-name="Path 2" d="M23.365,10.589a6.668,6.668,0,0,0-5.441,0,4.41,4.41,0,0,0-2.6,3.776.437.437,0,0,0,.434.439h0a.436.436,0,0,0,.436-.434,3.52,3.52,0,0,1,2.088-2.989,5.776,5.776,0,0,1,4.712,0,.436.436,0,1,0,.363-.793Z" transform="translate(-10.093 -5.642)"/>
+      </g>
+    </g>
+    <line id="Line_55" data-name="Line 55" class="cls-4" x2="375" transform="translate(907.5 51.5)"/>
+    <line id="Line_56" data-name="Line 56" class="cls-4" y1="19.562" x2="9.6" transform="translate(943.1 14.062) rotate(180)"/>
+    <line id="Line_57" data-name="Line 57" class="cls-4" x1="9.6" y1="18.438" transform="translate(943.1 32.5) rotate(180)"/>
+    <g id="Rectangle_99" data-name="Rectangle 99" class="cls-5" transform="translate(934 77)">
+      <rect class="cls-9" width="324" height="452"/>
+      <rect class="cls-10" x="0.5" y="0.5" width="323" height="451"/>
+    </g>
+    <g id="Rectangle_100" data-name="Rectangle 100" class="cls-5" transform="translate(934 77)">
+      <rect class="cls-9" width="324" height="107"/>
+      <rect class="cls-10" x="0.5" y="0.5" width="323" height="106"/>
+    </g>
+    <line id="Line_58" data-name="Line 58" class="cls-4" x2="323" y2="106" transform="translate(934.5 77.5)"/>
+    <line id="Line_59" data-name="Line 59" class="cls-4" y1="106" x2="324" transform="translate(934.5 77.5)"/>
+    <text id="BRUSH_OFF" data-name="BRUSH OFF" class="cls-3" transform="translate(952 212)"><tspan x="0" y="0">BRUSH OFF</tspan></text>
+    <text id="_40" data-name="$40" class="cls-3" transform="translate(1210 212)"><tspan x="0" y="0">$40</tspan></text>
+    <line id="Line_60" data-name="Line 60" class="cls-6" x2="267" transform="translate(961.5 236.5)"/>
+    <line id="Line_61" data-name="Line 61" class="cls-6" x2="267" transform="translate(961.5 248.5)"/>
+    <line id="Line_62" data-name="Line 62" class="cls-6" x2="267" transform="translate(961.5 284.5)"/>
+    <line id="Line_63" data-name="Line 63" class="cls-6" x2="267" transform="translate(961.5 296.5)"/>
+    <line id="Line_64" data-name="Line 64" class="cls-6" x2="267" transform="translate(961.5 260.5)"/>
+    <line id="Line_65" data-name="Line 65" class="cls-6" x2="267" transform="translate(961.5 272.5)"/>
+    <text id="Wearables" class="cls-7" transform="translate(964.69 344.734)"><tspan x="0" y="0">Wearables</tspan></text>
+    <g id="Group_58" data-name="Group 58" transform="translate(955 322)">
+      <line id="Line_16" data-name="Line 16" class="cls-4" y2="31.113" transform="translate(0 0)"/>
+      <line id="Line_18" data-name="Line 18" class="cls-4" x2="102.142" transform="translate(0 0)"/>
+      <line id="Line_19" data-name="Line 19" class="cls-4" x2="101.977" transform="translate(0 31.113)"/>
+      <line id="Line_20" data-name="Line 20" class="cls-4" x2="11.897" y2="16.179" transform="translate(101.977 0)"/>
+      <line id="Line_21" data-name="Line 21" class="cls-4" y1="14.934" x2="11.897" transform="translate(101.977 16.179)"/>
+    </g>
+    <g id="Group_59" data-name="Group 59" transform="translate(955 374.515)">
+      <line id="Line_19-2" data-name="Line 19" class="cls-4" x2="101.977" transform="translate(0 31.113)"/>
+      <g id="Group_31" data-name="Group 31">
+        <line id="Line_16-2" data-name="Line 16" class="cls-4" y2="31.113"/>
+        <line id="Line_18-2" data-name="Line 18" class="cls-4" x2="102.142"/>
+        <line id="Line_20-2" data-name="Line 20" class="cls-4" x2="11.897" y2="16.179" transform="translate(101.977)"/>
+        <line id="Line_21-2" data-name="Line 21" class="cls-4" y1="14.934" x2="11.897" transform="translate(101.977 16.179)"/>
+      </g>
+    </g>
+    <text id="Watches" class="cls-7" transform="translate(980 396.248)"><tspan x="0" y="0">Watches</tspan></text>
+    <g id="Group_60" data-name="Group 60" transform="translate(1086.874 374.137)">
+      <line id="Line_22" data-name="Line 22" class="cls-4" x2="73.78" transform="translate(0 31.113)"/>
+      <g id="Group_32" data-name="Group 32">
+        <line id="Line_16-3" data-name="Line 16" class="cls-4" y2="31.113"/>
+        <line id="Line_18-3" data-name="Line 18" class="cls-4" x2="73.9"/>
+        <line id="Line_20-3" data-name="Line 20" class="cls-4" x2="8.608" y2="16.179" transform="translate(73.78)"/>
+        <line id="Line_21-3" data-name="Line 21" class="cls-4" y1="14.934" x2="8.608" transform="translate(73.78 16.179)"/>
+      </g>
+    </g>
+    <text id="HCI" class="cls-7" transform="translate(1106.164 396.493)"><tspan x="0" y="0">HCI</tspan></text>
+    <g id="Group_61" data-name="Group 61" transform="translate(1105.164 322.622)">
+      <line id="Line_23" data-name="Line 23" class="cls-4" x2="114.838" transform="translate(0 31.113)"/>
+      <g id="Group_33" data-name="Group 33" transform="translate(0 0)">
+        <line id="Line_16-4" data-name="Line 16" class="cls-4" y2="31.113"/>
+        <line id="Line_18-4" data-name="Line 18" class="cls-4" x2="115.025"/>
+        <line id="Line_20-4" data-name="Line 20" class="cls-4" x2="13.398" y2="16.179" transform="translate(114.838)"/>
+        <line id="Line_21-4" data-name="Line 21" class="cls-4" y1="14.934" x2="13.398" transform="translate(114.838 16.179)"/>
+      </g>
+    </g>
+    <text id="Smartphones" class="cls-7" transform="translate(1115.792 344.978)"><tspan x="0" y="0">Smartphones</tspan></text>
+    <text id="Duration_40_minutes" data-name="Duration     40 minutes" class="cls-3" transform="translate(955 441)"><tspan x="0" y="0" xml:space="preserve">Duration     40 minutes</tspan></text>
+    <line id="Line_66" data-name="Line 66" class="cls-4" x2="323" transform="translate(934.5 468.5)"/>
+    <text id="_04_21_-_04_30" data-name="04 / 21 - 04 / 30" class="cls-8" transform="translate(1006 508)"><tspan x="0" y="0">04 / 21 - 04 / 30</tspan></text>
+    <g class="cls-12" transform="matrix(1, 0, 0, 1, 0, 0)">
+      <g id="Rectangle_101-2" data-name="Rectangle 101" class="cls-5" transform="translate(935 552)">
+        <rect class="cls-9" width="323" height="56"/>
+        <rect class="cls-10" x="0.5" y="0.5" width="322" height="55"/>
+      </g>
+    </g>
+    <text id="SUBMIT_NOW" data-name="SUBMIT NOW" class="cls-8" transform="translate(1018 591)"><tspan x="0" y="0">SUBMIT NOW</tspan></text>
+  </g>
+</svg>

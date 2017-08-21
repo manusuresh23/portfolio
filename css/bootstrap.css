@@ -1085,7 +1085,7 @@ body {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 14px;
     line-height: 1.42857143;
-    color: #333;
+    color: #fff;
     background-color: #fff;
 }
 input,
@@ -3647,12 +3647,12 @@ tbody.collapse.in {
 }
 @media (min-width: 768px) {
     .navbar-right .dropdown-menu {
-/*        right: 0;*/
+        /*        right: 0;*/
         left: auto;
-        
+
     }colo
     .navbar-right .dropdown-menu-left {
-/*        right: auto;*/
+        /*        right: auto;*/
         left: 0;
     }
 }
@@ -4501,7 +4501,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     .navbar-right {
         float: right !important;
         margin-right: -15px;
-        
+
     }
     .navbar-right a{
         color: white;
@@ -4557,7 +4557,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-default .navbar-collapse,
 .navbar-default .navbar-form {
-    
+
 }
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:hover,
