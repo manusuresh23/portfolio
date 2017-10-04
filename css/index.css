@@ -183,7 +183,7 @@ header .intro-text .skills {
 .navbar-custom .navbar-brand:focus,
 .navbar-custom .navbar-brand:active,
 .navbar-custom .navbar-brand.active {
-    color: black;
+    color: #FF6600;
 }
 .navbar-custom .navbar-nav {
     letter-spacing: 1px;
@@ -198,7 +198,7 @@ header .intro-text .skills {
 }
 .navbar-custom .navbar-nav li a:focus,
 .navbar-custom .navbar-nav li a:active {
-    color: black;
+    color: white;
 }
 .navbar-custom .navbar-nav li.active a {
     color: white;
@@ -208,7 +208,7 @@ header .intro-text .skills {
 .navbar-custom .navbar-nav li.active a:hover,
 .navbar-custom .navbar-nav li.active a:focus,
 .navbar-custom .navbar-nav li.active a:active {
-    color: black;
+    color: white;
     background: #FF6600;
 }
 .navbar-custom .navbar-toggle {
@@ -231,24 +231,25 @@ header .intro-text .skills {
         transition: padding 0.3s;
     }
     .navbar-custom a{
-        color: white;
+        color: #FF6600;
     }
     .navbar-custom .navbar-brand {
-        font-size: 2em;
+        font-size: 1.5em;
         -webkit-transition: all 0.3s;
         -moz-transition: all 0.3s;
         transition: all 0.3s;
     }
     .navbar-custom.affix {
         padding: 10px 0;
-        background-color: hsla(360, 0%, 0%, 0.80) ;
+/*        background-color: hsla(360, 0%, 0%, 0.80) ;*/
     }
     .navbar-custom.affix .navbar-right a{
-        color: black;
+/*        color: white;*/
     }
     .navbar-custom.affix .navbar-brand {
         font-size: 1.5em;
-        color: white;
+/*        color: white;*/
+        
     }
 }
 
