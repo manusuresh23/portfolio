@@ -82,7 +82,11 @@ hr.style-six {
 }
 .img-responsive2{
     display: block;
-    width: 30%;
+    width: 20%;
+}
+.img-responsive3{
+    display: block;
+    width: 20%;
 }
 
 /hr.star-light,*/
@@ -288,8 +292,8 @@ section h2 {
 }
 
 section.success {
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
 }
 
 @media (max-width: 767px) {
@@ -663,11 +667,13 @@ job-title{
     font-size: 1.5rem;
     margin-top: 5px;
     margin-bottom: 5px;
+    color:black;
     font-weight: bold;
 }
 
 job-desc{
     display: block;
+    color:black;
     font-size: 1.5rem;
     line-height: 1.5em;
 }
@@ -680,8 +686,7 @@ job-desc{
     /*    color: black;*/
     padding: 50px ;
     margin-left: 0px;
-
-
+/*    color:white;*/
 }
 
 .timeline ul li {
@@ -721,7 +726,7 @@ job-desc{
     position: absolute;
     bottom: 7px;
     width: 0;
-    color:black;
+    color:white;
     height: 0;
     border-style: solid;
 }
@@ -751,6 +756,7 @@ time {
     font-size: 1.2rem;
     font-weight: bold;
     margin-bottom: 8px;
+    color: black;
 }
 
 .jobs{
@@ -785,7 +791,7 @@ time {
 .timeline ul li.in-view div {
     transform: none;
     visibility: visible;
-    color: black;
+    color: white;
     opacity: 1;
 }
 
@@ -827,12 +833,11 @@ time {
 }
 #experience{
     background-color: white;
-    color:white;
+    color:black;
 }
 
 .tline {
     /*    display: block;*/
-    color: black;
     float: left;
     margin-left: 25%;
     padding-right: 50%;
