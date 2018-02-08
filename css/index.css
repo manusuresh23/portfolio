@@ -84,9 +84,18 @@ hr.style-six {
     display: block;
     width: 20%;
 }
+
+
 .img-responsive3{
     display: block;
     width: 20%;
+}
+
+@media (min-width: 300px) {
+    .img-responsive3{
+        display: block;
+        width: 20%;
+    }
 }
 
 /hr.star-light,*/
